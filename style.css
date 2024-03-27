@@ -1,0 +1,58 @@
+/* Google Fonts: 'Outfit' */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #D5E1EF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 320px;
+    height: 497px;
+    padding: 16px 16px 40px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#qrcode {
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+content {
+    width: 288px;
+    height: 129px;
+    padding: 0px 16px; 
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #1F314F;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+p {
+    color: #7D889E;
+    text-align: center;
+}
+
+.attribution {
+    display: inline;
+}
