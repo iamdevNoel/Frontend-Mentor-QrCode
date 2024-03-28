@@ -20,6 +20,7 @@ body {
 main {
     width: 320px;
     background-color: #FFFFFF;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -42,6 +43,7 @@ article {
 
 h1 {
     font-size: 22px;
+    letter-spacing: 0;
     font-weight: bold;
     margin-bottom: 16px;
     color: #1F314F;
